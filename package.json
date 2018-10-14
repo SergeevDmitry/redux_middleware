@@ -17,8 +17,15 @@
     "react-redux": "5.0.6",
     "react-scripts": "^2.0.4",
     "redux": "3.7.2",
-    "redux-promise": "0.5.3",
-    "redux-thunk": "2.2.0"
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0"
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://localhost:5000",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
